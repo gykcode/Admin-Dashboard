@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="top">
+        <div class="search">
+          <label for="search"><span class="material-icons-outlined search-icon">search</span></label>
+          <input type="text" name="search" id="search" />
+        </div>
+
+        <div class="account">
+          <button>
+            <span class="material-icons-outlined"> notifications_active </span>
+          </button>
+          <div class="picture"></div>
+          <p class="name">Iggy Mendoza</p>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="profile">
+          <div class="picture"></div>
+          <div class="profile-name">
+            <p class="greeting">Hi there,</p>
+            <p class="name">
+              Iggy Mendoza <span class="username">(@iggymndza)</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button class="btn">Share</button>
+        </div>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <h1 class="sidebar-title">
+        <span class="material-icons"> dashboard </span>
+        Dashboard
+      </h1>
+      <ul class="nav">
+        <li class="nav-item current">
+          <a href="#" class="nav-link"><span class="material-icons"> home </span> Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="material-icons-outlined">account_circle </span> Profile</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="material-icons-outlined"> message </span> Messages</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="material-icons-outlined"> history </span> History</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="material-icons-outlined"> task </span> Tasks</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="material-icons-outlined"> groups </span>Communities</a>
+        </li>
+      </ul>
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="material-icons-outlined"> settings </span> Settings</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="material-icons-outlined"> help_center </span> Support</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span class="material-icons-outlined"> verified_user </span> Privacy</a>
+        </li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <div class="projects">
+        <h3>Your Projects</h3>
+        <div class="cards">
+          <div class="card">
+            <h5 class="card-title">Travel Website(Project Practice)</h5>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt placeat nesciunt recusandae exercitationem aut rerum provident ex aliquid necessitatibus, modi, aspernatur reiciendis, temporibus magnam quisquam atque incidunt quaerat? Esse!
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://gykcode.github.io/Personal_Projects/"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/Personal_Projects.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">Python Practice</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quaerat, distinctio veniam unde pariatur rerum maxime alias rem dignissimos doloremque, sunt quam laudantium! Debitis, perspiciatis earum porro fugit vero reiciendis!
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href=""><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/python_projects.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">Landing Page Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non fuga temporibus expedita atque possimus optio nihil assumenda cum recusandae, enim veritatis minima magni neque, esse tempore. Temporibus, quo modi!
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://github.com/gykcode/Landing_Page.git"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://gykcode.github.io/Landing_Page/"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">Rock-Paper-Scissor Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quaerat, distinctio veniam unde pariatur rerum maxime alias rem dignissimos doloremque, sunt quam laudantium! Debitis, perspiciatis earum porro fugit vero reiciendis!
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://gykcode.github.io/Rock-Paper-Scissor-Game/"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/Rock-Paper-Scissor-Game.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">Calculator Project</h5>
+            <p class="card-text">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consectetur, dolorum animi, qui accusamus quisquam amet quae illo laborum aut adipisci libero. Voluptas at quaerat deserunt fugiat unde, laboriosam saepe.
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://gykcode.github.io/Calculator/"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/Calculator.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">Sign-up Form Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam autem dolor quis quos nihil rerum sequi expedita sed ex sunt nulla minus laboriosam amet dicta, iure perferendis voluptate! Fugiat, laboriosam.
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://gykcode.github.io/Sign-Up-Form/"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/Sign-Up-Form.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">Etch-A-Sketch Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum asperiores aperiam, pariatur libero perspiciatis amet. Illum vitae ab explicabo praesentium, aspernatur, ex dignissimos perferendis cumque enim veniam recusandae quam! Eaque.
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://gykcode.github.io/Etch-a-Sketch/"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/Etch-a-Sketch.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">Tic-Tac-Toe Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non fuga temporibus expedita atque possimus optio nihil assumenda cum recusandae, enim veritatis minima magni neque, esse tempore. Temporibus, quo modi!
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://gykcode.github.io/Tic-Tac-Toe/"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/Tic-Tac-Toe.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-title">Weather App Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia doloremque harum qui dolores quasi fugit perspiciatis totam hic, praesentium, neque, nobis optio commodi impedit. Minima officia numquam officiis culpa quia!
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://gykcode.github.io/Weather-App-Project/"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/Weather-App-Project.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">Restaurant Page Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non fuga temporibus expedita atque possimus optio nihil assumenda cum recusandae, enim veritatis minima magni neque, esse tempore. Temporibus, quo modi!
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://gykcode.github.io/Restaurant_Page/"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/Restaurant_Page.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">To-Do List Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non fuga temporibus expedita atque possimus optio nihil assumenda cum recusandae, enim veritatis minima magni neque, esse tempore. Temporibus, quo modi!
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href=""><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/ToDo_List-App.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-title">Library App Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non fuga temporibus expedita atque possimus optio nihil assumenda cum recusandae, enim veritatis minima magni neque, esse tempore. Temporibus, quo modi!
+            </p>
+            <div class="actions">
+                <a href="#"><span class="material-icons-outlined"> star_border </span></a>
+                <a href="https://gykcode.github.io/Library-App/"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/gykcode/Library-App.git"><img src="./image/github-logo.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="announcements">
+        <h3>Announcements</h3>
+        <ul class="card">
+          <li class="announcement">
+            <h5 class="card-title">Site Maintenance</h5>
+            <p class="card-text">
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, reprehenderit atque quo ab harum temporibus officiis cum sequi? Vel sunt voluptatem alias quaerat harum, dignissimos quo. Minima ab officia animi!
+            </p>
+          </li>
+          <li class="announcement">
+            <h5 class="card-title">Community Share Day</h5>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt error sunt, tenetur quos, labore obcaecati necessitatibus deserunt molestiae accusantium veritatis ducimus debitis excepturi, atque quae provident minima mollitia iusto numquam!
+            </p>
+          </li>
+          <li class="announcement">
+            <h5 class="card-title">Updated Privacy Policy</h5>
+            <p class="card-text">
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quaerat commodi impedit sed id distinctio obcaecati neque molestias quae quasi tenetur, atque sint itaque tempore iste eos aliquid maxime quo!
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="trending">
+        <h3>Trending</h3>
+        <ul class="card">
+          <li class="trend trend-1">
+            <div class="picture"></div>
+            <div class="account">
+              <p class="username">@tegan</p>
+              <p class="name card-text">World Peace Builder</p>
+            </div>
+          </li>
+          <li class="trend trend-2">
+            <div class="picture"></div>
+            <div class="account">
+              <p class="username">@morgan</p>
+              <p class="name card-text">Super Cool Project</p>
+            </div>
+          </li>
+          <li class="trend trend-3">
+            <div class="picture"></div>
+            <div class="account">
+              <p class="username">@kendall</p>
+              <p class="name card-text">Life Changing App</p>
+            </div>
+          </li>
+          <li class="trend trend-4">
+            <div class="picture"></div>
+            <div class="account">
+              <p class="username">@alex</p>
+              <p class="name card-text">No Traffic Maker</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
